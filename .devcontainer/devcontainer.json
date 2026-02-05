@@ -1,1 +1,16 @@
-
+{
+  "name": "Android Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "vscjava.vscode-java-pack",
+        "mathiasfrohlich.Kotlin",
+        "fwcd.kotlin"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}
